@@ -36,8 +36,8 @@
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Satya Saurabh Mishra",
-          "url": "https://satyasaurabh-mishra.github.io/",
-          "image": "https://satyasaurabh-mishra.github.io/assets/satya.png",
+          "url": "https://satyam19mishra.github.io/satyasaurabh-mishra.github.io/",
+          "image": "https://satyam19mishra.github.io/satyasaurabh-mishra.github.io/assets/satya.png",
           "sameAs": [
             "https://www.linkedin.com/in/saurabh-mishra-049424177/",
             "https://github.com/satyam19mishra/",
@@ -47,12 +47,12 @@
           "jobTitle": "Data Scientist Engineer and Researcher",
           "alumniOf": {
             "@type": "CollegeOrUniversity",
-            "name": "IIIT Jabalpur"
+            "name": "IIITDM Jabalpur"
           },
-          "affiliation": {
+          <!-- "affiliation": {
             "@type": "CollegeOrUniversity",
             "name": "University of California San Diego"
-          },
+          }, -->
           "knowsAbout": ["Machine Learning", "Data Science", "Large Language Models"],
           "description": "Satya Saurabh Mishra is a Data Scientist at Dell Technologies, specializing in Machine Learning, Data Science, and Large Language Models (LLMs)."
         }
@@ -102,7 +102,7 @@
                             <a href="https://www.linkedin.com/in/saurabh-mishra-049424177/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg" class="iico" alt="Connect with Satya on LinkedIn"/></a>
                             <a href="https://github.com/satyam19mishra/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg" class="iico" alt="View satya's GitHub projects"/></a>
                             <!-- <a href="https://scholar.google.co.uk/citations?user=RuldEOQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/googlescholar.svg" class="iico" alt="Nikhil's Google Scholar profile"/></a> -->
-                            <!-- <a href="https://x.com/nikhil2362" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/twitter.svg" class="iico" alt="Follow Nikhil on X (Twitter)" /></a> -->
+                            <a href="https://x.com/satyamishra09" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/twitter.svg" class="iico" alt="Follow Satya on X (Twitter)" /></a>
                             <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/gmail.svg" style="cursor: pointer;" class="iico" id="iemail" title="Click to reveal Satya's email" alt="Contact Satya via email" />
                         </div>
                         <div id="demail"></div>
@@ -151,8 +151,8 @@
                         <button class="tab-button active" data-tab="ml-ds">Machine Learning & Data Science</button>
                         <button class="tab-button" data-tab="programming">Programming</button>
                         <button class="tab-button" data-tab="dev-tools">Development Tools</button>
-                        <button class="tab-button" data-tab="cloud">Cloud & Deployment</button>
-                        <button class="tab-button" data-tab="other">Other</button>
+                        <!-- <button class="tab-button" data-tab="cloud">Cloud & Deployment</button>
+                        <button class="tab-button" data-tab="other">Other</button> -->
                     </div>
             
                     <div id="ml-ds" class="tab-content active">
@@ -238,7 +238,7 @@
             <div class="section" id="projects">
                 <h2>Projects</h2>
 
-                <h3>Undergraduate Projects</h3>
+                <h3>Projects</h3>
                 <div class="project-grid">
 
                     <div class="project-card">
@@ -440,10 +440,44 @@
                 <div class="pub">
                     <div class="pub-title"><a href="https://openreview.net/pdf?id=JhhLGvpr9N" target="_blank">How Does Entropy Influence Modern Text-to-SQL Systems?</a></div>
                     <div class="pub-venue">Building Trust Workshop at ICLR 2025</div>
-                    <div class="pub-authors">Chris Lazar∗
+                    <div class="pub-authors"><strong>Chris Lazar∗
                         , Varun Kausika∗
                         , Satya Saurabh Mishra∗
-                        , Saurabh Jha, Priyanka Pathak</div>
+                        , Saurabh Jha, Priyanka Pathak</strong></div>
+                    <P> <strong>Abstract : </strong>In the field of <strong>text-to-SQL candidate generation</strong>, a critical challenge remains in
+                        quantifying and assessing the confidence in the generated SQL queries. Existing
+                        approaches often rely on large language models (LLMs) that function as opaque
+                        processing units, producing outputs for every input without a mechanism to measure their confidence. 
+                        Current uncertainty quantification techniques for LLMs do not incorporate domain-specific information. 
+                        In this study, we introduce the concept of <strong>query entropy for Text-to-SQL candidate confidence estimation</strong> and
+                        integrate it into existing popular self-correction pipelines to guide generations and
+                        prevent resource overuse by including a <strong>novel clustering technique for generated
+                        SQL candidates based on entropy</strong>. We further study the treatment of different
+                        candidate generation techniques under this paradigm.
+                    </P>
+                </div>
+
+                <div class="pub">
+                    <div class="pub-title"><a href="https://huggingface.co/FinLang/finance-embeddings-investopedia" target="_blank">Finlang: Open-sourced Investopedia Financial Dataset, Finance chat and Embedding Model</a></div>
+                    <div class="pub-venue">HuggingFace Models and Dataset</div>
+                    <div class="pub-authors"><strong>Anamika Chatterjee∗
+                        , Harshit Skichi∗
+                        , Satya Saurabh Mishra∗
+                        , Saurabh Jha</strong></div>
+                    <P> <strong>Dataset : </strong>We curate a dataset of substantial size pertaining to finance from Investopedia 
+                        using a new technique that leverages unstructured scraping data and LLM to generate structured data that is
+                        suitable for fine-tuning embedding models. The dataset generation uses a new method of self-verification that
+                         ensures that the <strong>generated question-answer pairs</strong> and not hallucinated by the LLM with high probability.
+                    </P>
+                    <P> <strong>Model : </strong>
+                        <ul>
+                            <li>Embedding model is finetuned on top of <strong>BAAI/bge-base-en-v1.5</strong>. It maps sentences & 
+                                paragraphs to a <strong>768 dimensional dense vector space</strong> and can be used for tasks like clustering or semantic search in RAG applications.</li>
+                            <li>This Large Language Model (LLM) is an instruct fine-tuned version of the <strong>mistralai/Mistral-7B-v0.1</strong> using our open-sourced  
+                                <a href = "https://huggingface.co/datasets/FinLang/investopedia-instruction-tuning-dataset">finance dataset</a> developed for finance application by FinLang Team</li>
+                        </ul>
+                    </P>
+                    
                 </div>
     
                 <!-- <div class="google-scholar-section">
@@ -470,28 +504,27 @@
                                 <h3>Data Scientist</h3>
                                 <h4 class="organization">Dell Technologies</h4>
                                 <p class="entry-meta">
-                                    <span class="year">3rd JUly 2024 - Present</span>
+                                    <span class="year">3rd July 2024 - Present</span>
                                     <span class="location">Banglore, Karnataka</span>
                                 </p>
                             </div>
-                            <p>As a Data Scientist I worked in Finance Organization</p>
+                            <!-- <p>As a Data Scientist I worked in Finance Organization</p> -->
                             <ul>
                                 <p><strong> 2025 Accepted Research Paper: How Does Entropy Influence Modern Text-to-SQL Systems? </strong></p>
                                 <UL>
-                                    <li>Proposed an entropy-based metric to assess and cluster SQL query candidates for improved confidence estimation.</li>
-                                    <li>Integrated entropy-guided refinement into CHESS and CHASE pipelines to reduce redundant generations.</li>
-                                    <li>Built a modular agentic framework using Mixtral and Deepseek models for retrieval, generation, and selection.                                    </li>
-                                    <li>Applied MarkupLM with DBSCAN to cluster execution-based embeddings of SQL outputs.</li>
-                                    <li>Used entropy thresholds as stopping criteria in query refinement to cut down computation costs.</li>
-                                    <li>Ran detailed experiments on BIRD benchmark using diverse generation strategies like Divide-and-Conquer, Query Plan, Online Synthetic Examples.</li>
+                                    <li>Proposed an <strong>entropy-based metric</strong> to assess and cluster SQL query <strong>for improved confidence estimation</strong> .</li>
+                                    <li>Integrated entropy-guided refinement into <strong>CHESS and CHASE pipelines to reduce redundant generations</strong>.</li>
+                                    <li>Built a modular agentic framework using <strong>Mixtral and Deepseek models for retrieval, generation, and selection</strong>.                                    </li>
+                                    <li>Applied <strong>MarkupLM with DBSCAN to cluster</strong>execution-based embeddings of SQL outputs.</li>
+                                    <li>Used entropy thresholds as stopping criteria in <strong>query refinement</strong> to cut down computation costs.</li>
+                                    <li>Ran detailed experiments on <strong>BIRD benchmark</strong> using diverse generation strategies like <strong>Divide-and-Conquer, Query Plan, Online Synthetic </strong>Examples.</li>
                                 </UL>
                                 <p><strong>AI-Powered Balance Sheet Flux Commentary Automation</strong></p>
                                 <UL>
-                                    <li>Automated 6,000 quarterly flux analyses using a custom-built LLM pipeline, reducing 32K+ hours of manual effort annually</li>
-                                    <li>Conducted extensive prompt engineering experiments and adopted Chain-of-Thought prompting for best results.</li>
-                                    <li>Fine-tuned a Llama-3.1-8B-Instruct using PEFT with LORA on historical finance data to improve accuracy.                                    </li>
-                                    <li>Applied MarkupLM with DBSCAN to cluster execution-based embeddings of SQL outputs.</li>
-                                    <li>Designed and implemented an tool based agentic framework to orchestrate data preprocessing, variance analysis, andauto-commentary generation.</li>
+                                    <li>Automated <strong>6,000 quarterly flux analyses</strong> using a custom-built LLM pipeline, <strong>reducing 32K+ hours of manual effort annually</strong>.</li>
+                                    <li>Conducted extensive prompt engineering experiments and <strong>adopted Chain-of-Thought prompting</strong> for best results.</li>
+                                    <li>Fine-tuned a <strong>Llama-3.1-8B-Instruct using PEFT with LORA</strong> on historical finance data to improve accuracy.                                    </li>
+                                    <li>Designed and implemented an tool based <strong>agentic framework</strong> to orchestrate <strong>data preprocessing, variance analysis, and auto-commentary generation</strong>.</li>
                                 </UL>
                             </ul>
                         </div>
@@ -507,18 +540,18 @@
                                 <h3>Data Science Intern</h3>
                                 <h4 class="organization">Dell Technologies</h4>
                                 <p class="entry-meta">
-                                    <span class="year">3rd JUly 2023 - 31st May 2024</span>
+                                    <span class="year">3rd July 2023 - 31st May 2024</span>
                                     <span class="location">Banglore, Karnataka</span>
                                 </p>
                             </div>
-                            <p>As a Data Science Intern i worked in Finance Organization of Dell Technologies</p>
+                            <!-- <p>As a Data Science Intern i worked in Finance Organization of Dell Technologies</p> -->
                             <ul>
-                                <li>Enhanced LLM model’s query response using RAG methodology with Dell data.</li>
-                                <li>Conducted end-to-end experiments on llama-index, integrating OpenAI and custom LLM models and implementing them for better model responses.</li>
-                                <li>Led efforts to fine-tune embedding models, improving their ability for enhanced Dell data representation.</li>
-                                <li>Explored Vector Databases like Chroma DB and Faiss for efficient storage and retrieval of vector representations.</li>
-                                <li>Systematically optimized model performance through comprehensive evaluation strategy and comparisons with other LLM models.</li>
-                                <li>Integrated the MLflow tool for analyzing and monitoring the performance of machine learning models.</li>
+                                <li>Enhanced LLM model’s query response using <strong>RAG methodology with Dell data</strong>.</li>
+                                <li>Conducted end-to-end experiments on <strong>llama-index, integrating OpenAI and custom LLM models</strong> and implementing them for better model responses.</li>
+                                <li>Led efforts to <strong>fine-tune embedding models</strong>, improving their ability for enhanced Dell data representation.</li>
+                                <li>Explored <strong>Vector Databases like Chroma DB and Faiss</strong> for efficient storage and retrieval of vector representations.</li>
+                                <li>Systematically <strong>optimized model performance</strong> through comprehensive evaluation strategy and comparisons with other LLM models.</li>
+                                <li>Integrated the <strong>MLflow tool for analyzing and monitoring</strong> the performance of machine learning models.</li>
                             </ul>
                         </div>
                     </li>
@@ -530,14 +563,21 @@
                         <div class="entry-content">
                             <div class="entry-dot"></div>
                             <div class="entry-header">
-                                <h3>Master of Technology in Computer Science Engineering</h3>
+                                <h3>Master of Technology in AI/ML</h3>
                                 <h4 class="organization">IIITDM Jabalpur</h4>
                                 <p class="entry-meta">
-                                    <span class="year">2022 - 2024</span>
+                                    <span class="year"><strong>CGPA: 8.8</strong> | 2022 - 2024</span>
                                     <span class="location">Jabalpur, Madhya Pradesh</span>
                                 </p>
                             </div>
-                            <p>Masters of Technology with a specialization in Artificial Intelligence and Machine Learning at Indian Institute Of Information Technology, Jabalpur(M.P.). </p>
+                            <p>Completed Master of Technology (M.Tech) with a specialization in Artificial Intelligence and Machine Learning at the Indian Institute of Information Technology, Jabalpur (M.P.). Worked as a Teaching Assistant (TA) for several courses under the mentorship of distinguished professors.</p>
+                            <ul>
+                                <li>TA : <strong>Data structure</strong> Using Python under Prof. Kushum kumari Bharti.</li>
+                                <li>TA : Introduction to <strong>Data Science Using Python</strong> under Prof. Ayan Seal.</li>
+                                <li>TA : Design and <strong>Analysis of Algorithms</strong> under Prof. Avinash Chandra Pandey.</li>
+                                <li>TA : Computer <strong>Programming in C</strong> under Prof. Vinod Kumar Jain.</li>
+                                <li>TA : <strong>Computer Network</strong> under Prof. Neelam Dayal.</li>
+                            </ul>
                         </div>
                     </li>
 
@@ -555,7 +595,7 @@
                                     <span class="location">Jaunpur, Uttar Pradesh</span>
                                 </p>
                             </div>
-                            <p>write about your teaching experience.</p>
+                            <p>Worked as a Mathematics Teacher at SSV Academy, Jaunpur, Uttar Pradesh from 2020 to 2022. Taught Mathematics to students, covering a wide range of topics including Algebra, Probability and Calculus. Focused on building strong understanding and problem-solving skills among students, helping them excel in their academic.</p>
                         </div>
                     </li>
                     
@@ -569,7 +609,7 @@
                                 <h3>Bachelor of Technology in Computer Science Engineering</h3>
                                 <h4 class="organization">VBSPU Jaunpur</h4>
                                 <p class="entry-meta">
-                                    <span class="year">2018 - 2022</span>
+                                    <span class="year"><strong>CGPA: 8.2</strong> | 2018 - 2022</span>
                                     <span class="location">Jaunpur, Uttar Pradesh</span>
                                 </p>
                             </div>

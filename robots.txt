@@ -3,4 +3,4 @@ Disallow: /private/
 Disallow: /tmp/
 Allow: /
 
-Sitemap: https://nikhil-paleti.github.io/sitemap.xml
+Sitemap: https://satyam19mishra.github.io/satyasaurabh-mishra.github.io/sitemap.xml

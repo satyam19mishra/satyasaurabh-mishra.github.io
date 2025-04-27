@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const dhead = document.getElementById('dhead');
 const img = document.querySelector('#dpic img');
-const images = ['assets/me.jpg', 'assets/me2.png'];
+const images = ['assets/satya.png', 'assets/satya2.jpeg'];
 let currentIndex = 0;
 
 function switchImage() {
